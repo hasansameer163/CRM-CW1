@@ -26,7 +26,9 @@ Then, carrying out analysis in relation to correlation with RFM, and the sensiti
 - pandas used: 2.2.3
 - yfinance used: 0.2.66
 
-- ## Files
+## Files
+File | Description
+--- | ---
 SP500_RFM_Analysis_2021_2024.ipynb | Stores all the code and outputs from Tasks 1 & 2. Carried out using Google Colab
 SP500_RFM_2021_2024.csv | Feature table
 SP500_RFM_2021_2024.xlsx | Excel version of the feature table

@@ -1,6 +1,6 @@
 # CRM-CW1: Segmenting S&P 500 stocks using weekly returns, beta and adapted RFM
 
-6BUISO17W CRM & CM with Business Intelligence - Individual Coursework
+6BUIS017W CRM & CM with Business Intelligence - Individual Coursework
 
 ## Abstract
 A business intelligence analysis of the stocks that make up the S&P 500. The stocks have been represented using return and risk metrics (weekly mean returns and weekly beta), and using adapted RFM metrics (Recency, Frequency and Monetary) for trading activity. 
@@ -8,6 +8,7 @@ Using Ward and K-Means clustering on the stocks that are clustered on these metr
 Then, carrying out analysis in relation to correlation with RFM, and the sensitivity to removing the Monetary metric.
 
 ## Project Details
+- Data snapshot (CSV files) retrieved 2026-11-20 03:19 UTC. The notebook was rerun on 2026-11-22 00:42 UTC and reproduced the same 488 shares and results
 - Data period: 2021-01-01 to 2025-01-01 (exclusive end date)
 - Observation date: 2024-12-31
 - Index used: ^GSPC (S&P 500 price index)
@@ -25,7 +26,7 @@ Then, carrying out analysis in relation to correlation with RFM, and the sensiti
 - pandas used: 2.2.3
 - yfinance used: 0.2.66
 
-- ## files
+- ## Files
 SP500_RFM_Analysis_2021_2024.ipynb | Stores all the code and outputs from Tasks 1 & 2. Carried out using Google Colab
 SP500_RFM_2021_2024.csv | Feature table
 SP500_RFM_2021_2024.xlsx | Excel version of the feature table
